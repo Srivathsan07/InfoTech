@@ -1,0 +1,43 @@
+@media only screen and (max-width:991px){
+    .login_inner_section{margin-bottom: 30px;}
+}
+@media (max-width: 420px) {
+    .sidebar.close .nav-links li .sub-menu {
+      display: none;
+    }
+  }
+  @media (max-width: 1366px) {
+    .sidebar {
+      width: 230px;
+    }
+    .home-section {
+      width: calc(100% - 230px);
+      left: 230px;
+    }
+  }
+  @media (max-width: 992px) {
+    .sidebar .nav-links li i {
+      height: 45px;
+      min-width: 45px;
+    }
+    .sidebar.close {
+      width: 50px;
+    }
+    .sidebar.close ~ .home-section {
+      left: 50px;
+      width: calc(100% - 50px);
+    }
+    .sidebar .nav-links li .sub-menu {
+      padding: 6px 6px 14px 45px;
+    }
+    .sidebar .logo-details {
+      height: 50px;
+    }
+    .bx-menus.mobile{
+        display: block;
+    }
+    .home-section {
+        left: 50px;
+  width: calc(100% - 50px);
+  }
+  }
